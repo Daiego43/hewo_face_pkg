@@ -13,7 +13,6 @@ setup(
     install_requires=[
         'setuptools',
         'hewo-face>=1.0.0',
-        'psutil>=7.0.0'
     ],
     zip_safe=True,
     maintainer='Diego Delgado Chaves',
