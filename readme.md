@@ -1,11 +1,11 @@
 # hewo_face_pkg
 
-`hewo_face_pkg` is the **ROS 2 wrapper package** for the visual module [`hewo-face`](https://github.com/ThinThought/hewo-face), responsible for rendering and publishing HeWo's emotional and graphical state into the ROS ecosystem.
+`hewo_face_pkg` is the **ROS 2 wrapper package** for the visual module [`hewo-face`](https://github.com/Daiego43/hewo_face), responsible for rendering and publishing HeWo's emotional and graphical state into the ROS ecosystem.
 
 It depends on:
 
-- [`hewo-face`](https://github.com/ThinThought/hewo-face): visual logic and animations using Pygame
-- [`hewo_face_interfaces`](https://github.com/ThinThought/hewo_face_interfaces): custom ROS 2 message definitions
+- [`hewo-face`](https://github.com/Daiego43/hewo_face): visual logic and animations using Pygame
+- [`hewo_face_interfaces`](https://github.com/Daiego43/hewo_face_interfaces): custom ROS 2 message definitions
 
 ---
 
