@@ -34,6 +34,7 @@ class HeWoMainNode(Node):
         self.window_settings = loader.load_settings("hewo.settings.window")
         self.hewo_settings = loader.load_settings("hewo.settings.hewo")
         self.window_settings['deploy'] = False
+        self.window_settings['enable_api'] = False
         # Setup layouts and window
         self.window = MainWindow(settings=self.window_settings)
         self.hewo_layout = HeWo(settings=self.hewo_settings)
