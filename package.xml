@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>hewo_face_pkg</name>
+  <version>1.0.0</version>
+  <description>ROS 2 wrapper for launching HeWo face using the hewo-face Python package</description>
+
+  <maintainer email="diedelcha@gmail.com">Diego Delgado Chaves</maintainer>
+  <license>MIT</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>hewo_face_interfaces</exec_depend>
+
+  <!-- Dependencia externa -->
+  <exec_depend>hewo-face</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
